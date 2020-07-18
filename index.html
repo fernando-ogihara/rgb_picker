@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho RGB</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Selecione a sua cor</h1>
+      <div>
+        <h2>(R) Vermelho:</h2>
+        <input id="slideRed" type="range" min="0" max="255" value="0" />
+        <input id="initialRed" type="text" value="0" disabled readonly />
+      </div>
+      <div>
+        <h2>(G) Verde:</h2>
+        <input id="slideGreen" type="range" min="0" max="255" value="0" />
+        <input id="initialGreen" type="text" value="0" disabled readonly />
+      </div>
+      <div>
+        <h2>(B) Azul:</h2>
+        <input id="slideBlue" type="range" min="0" max="255" value="0" />
+        <input id="initialBlue" type="text" value="0" disabled readonly />
+      </div>
+      <div id="showColor">
+        <a id="rgbR">Teste</a>
+        <a id="rgbG">Teste</a>
+        <a id="rgbB">Teste</a>
+      </div>
+      <script defer src="js/script.js"></script>
+    </div>
+  </body>
+</html>
