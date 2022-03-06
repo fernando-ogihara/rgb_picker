@@ -1,0 +1,44 @@
+/*
+#boxColor {
+  margin-top: 50px;
+  border-radius: 20px;
+  border: dotted 1px black;
+  width: 300px;
+  height: 100px;
+  background-color: aqua;
+
+}
+*/
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.span {
+  min-width: 100px;
+}
+
+.range {
+  min-width: 150px;
+}
+
+.text {
+  min-width: 50px;
+  margin-left: 15px;
+}
+
+#showColor {
+  margin-top: 20px;
+  width: 420px;
+  height: 100px;
+  background-color: black;
+  border-radius: 20px;
+  border: 1px dotted black;
+}
